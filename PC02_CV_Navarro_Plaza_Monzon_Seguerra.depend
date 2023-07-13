@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1686671937 source:c:\users\steven\documents\unmsm\ciclo 6\computación visual\programas\pc02_cv_navarro_plaza_monzon_seguerra\main.cpp
+	<GL/glut.h>
+	<math.h>
+
+935113144 c:\program files (x86)\codeblocks\glut\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+832837944 c:\program files (x86)\codeblocks\glut\include\gl\gl.h
+
+832394118 c:\program files (x86)\codeblocks\glut\include\gl\glu.h
+	<GL/gl.h>
+
