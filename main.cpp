@@ -324,47 +324,46 @@ void menuPrincipal(int opcion)
         case 8:
             isMostrarBezierOn = false;
         break;
-
+        // RGB -> colores primarios
         case 9:
-            // Morado
-            redPC = 142.f/255;
-            greenPC =68.f/255;
-            bluePC =173.f/255;
+            // Rojo
+            redPC = 1.0;
+            greenPC = 0.0;
+            bluePC = 0.0;
         break;
 
         case 10:
-            // Rojo
-            redPC = 231.f/255;
-            greenPC =76.f/255;
-            bluePC =60.f/255;
+            // Verde
+            redPC = 0.0;
+            greenPC = 1.0;
+            bluePC = 0.0;
         break;
 
         case 11:
-            // Celeste
-            redPC = 52.f/255;
-            greenPC =152.f/255;
-            bluePC =219.f/255;
+            redPC = 0.0;
+            greenPC = 0.0;
+            bluePC = 1.0;
         break;
-
+        // RGB -> colores primarios
         case 12:
-            // Naranja
-            redCB = 211.f/255;
-            greenCB =84.f/255;
-            blueCB =0.f/255;
+            // Rojo
+            redCB = 1.0;
+            greenCB = 0.0;
+            blueCB = 0.0;
         break;
 
         case 13:
-            // Plomo
-            redCB = 52.f/255;
-            greenCB =73.f/255;
-            blueCB =94.f/255;
+            // Verde
+            redCB = 0.0;
+            greenCB = 1.0;
+            blueCB = 0.0;
         break;
 
         case 14:
-            // Rosa
-            redCB = 241.f/255;
-            greenCB =148.f/255;
-            blueCB =138.f/255;
+            // Azul
+            redCB = 0.0;
+            greenCB = 0.0;
+            blueCB = 1.0;
         break;
 
         case 15:
@@ -408,14 +407,14 @@ int main(int argc, char **argv)
         glutAddMenuEntry("Desactivar", 8);
 
     int subColorPuntoControl = glutCreateMenu(menuPrincipal);
-        glutAddMenuEntry("Morado", 9);
-        glutAddMenuEntry("Rojo", 10);
-        glutAddMenuEntry("Celeste", 11);
+        glutAddMenuEntry("Rojo", 9);
+        glutAddMenuEntry("Verde", 10);
+        glutAddMenuEntry("Azul", 11);
 
     int subColorCurvaBezier = glutCreateMenu(menuPrincipal);
-        glutAddMenuEntry("Naranja", 12);
-        glutAddMenuEntry("Plomo", 13);
-        glutAddMenuEntry("Rosa", 14);
+        glutAddMenuEntry("Rojo", 12);
+        glutAddMenuEntry("Verde", 13);
+        glutAddMenuEntry("Azul", 14);
 
     int menu = glutCreateMenu(menuPrincipal);
         glutAddSubMenu("Ingresar Puntos de Control", subIngPuntos);
