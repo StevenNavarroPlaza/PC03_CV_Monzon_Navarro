@@ -4,9 +4,9 @@
     -------------------------------------
     Integrantes:
         - Monzon Seguerra, Patrick  17200237
-        - Navarro Plaza, Steven
+        - Navarro Plaza, Steven     16200139
     Fecha: 13/07/2023
-    Hora:
+    Hora: 9:30 p.m.
     Tema: Curva de Bezier
 */
 #include <GL/glut.h>
